@@ -8,16 +8,16 @@
     </head>
     <body>
         <header>
-            <h1 style="text-align: center; color: rgb(86, 11, 24);">Glowique</h1>
+            <h1>Glowique</h1>
+             </header>
         <hr>
+          <main>
             <nav>
                 <ul>
                     <li><a href="about.html" >About</a></li>
                     <li><a href="#1">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
             <p>Your favourite UGC Creator's Wishlist <br><br>
             <img src="images/img4.webp" alt="CuteEmoji" width="150 height="200" loading="lazy">
           <p>
@@ -51,8 +51,10 @@
             </table>
 <br>
 
-           As i gave link to this products.<br>
-         Here you can also buy your favourites. </ul>
+           <p class="green">As i gave link to this products. <br>
+         Here you can also buy your favourites.
+         </p>
+         </ul>
            <article> 
             <em>
                 <section>
@@ -81,24 +83,104 @@
 <hr>
             <article>
                 <section id="1">
-                    <h2>Contact me here</h2>
-             <p> I would like to hear from you.</p>
+                    <h2> <span id="purple">Contact me here</span></h2>
+             <p class="green"> I would like to hear from you.</p>
              </section>
              <section>
+                <fieldset>
+                    <legend>Personal Info</legend>
                 <form action="https://httpbin.org.in" method="get">
-                    <label for="FirstName">Username:</label>
-                    <input type="text" name="FirstName" id="FirstName" placeholder="Enter Your Name" autocomplete="on" required>
-                    <br>
-     <label for="Feedback">Feedback:</label>
-                    <input type="text" name="Feedback" id="Feedback" placeholder="please give your feedback"  autocomplete="on" required>
-                    <br>
-                    <button>Submit</button>
-                </form>
+                 <p>
+                    <label for="UserName">Username:</label>
+                    <input type="text" name="UserName" id="UserName" placeholder="Enter Your Name" autocomplete="on" required>
+                 </p>
+                 <p>
+                    <label for="Password">Password:</label>
+                    <input type="password" name="Password" id="Password" placeholder="Enter Your Password"required>
+                 </p>
+                     <label for="Phone">Phone No:</label>
+                    <input type="tel" name="Phone" id="Phone" placeholder="9199999999"
+                    required pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                 </p>
+                 <p>
+                 <label for="decade">Decade</label>
+                    <input type="number" name="decade" id="decade" min="2000" max="2026" value="2020" step="2">
+                </p>
+                <p>
+                    <label for="content">What's your favourite product</label>
+                    <select name="content" id="content" size="5">
+      
+                        <optgroup label="Skincare">
+                        <option value="Moiturizer">Moisturizer</option>
+                        <option value="Sunscreen"  selected>Sunscreen</option>
+                        </optgroup>
 
+                        <optgroup label="Haircare">
+                        <option value="Serum">Serum</option>
+                        <option value="conditioner">Conditioner</option>
+                        </optgroup>
+
+                        <optgroup label="Makeup">
+                        <option value="Lipstick">Lipstick</option>
+                        <option value="Kajal">Kajal</option>
+                        </optgroup>
+                    </select>
+                </p> 
+          <!--       <p>
+                <label for="products">Products</label>
+                 <input type="text" name="products" id="products" list="product-list">
+                 <datalist id="product-list">
+                    <option value="Moisturizer"></option>
+                    <option value="Sunscreen">Sunscreen</option>
+                    <option value="Serum">Serum</option>
+                    <option value="conditioner"></option>
+                    <option value="Lipstick">Lipstick</option>
+                    <option value="Kajal">Kajal</option>
+                 </datalist>
+                 </p> -->
+                   <p>
+                <fieldset>
+                <legend>Select Gender:</legend>
+                        <p>
+                          <input type="radio" name="gender" id="Gender" >
+                          <label for="Gender">Male</label>
+                        </p>
+                        <p>
+                          <input type="radio" name="gender" id="Gender" >
+                          <label for="Gender">Female</label>
+                </fieldset>
+                </p>
+                <fieldset>
+                <legend>Select products:</legend>
+                        <p>
+                          <input type="checkbox" name="products" id="products" >
+                          <label for="products">skincare</label>
+                        </p>
+                        <p>
+                          <input type="checkbox" name="products" id="products" >
+                          <label for="products">Haircare</label>
+                        </p>
+                        <p>
+                          <input type="checkbox" name="products" id="products" >
+                          <label for="products">Makeup</label>
+                          </p>  </fieldset>
+                          <p>
+                            <fieldset>
+                                <legend>Sent me a note</legend>
+                                <label for="Your message"></label>
+                                <p>
+                                <textarea name="message" id="Your message" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+                                </p>
+                            </fieldset>
+                          </p>
+                          <p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    </p>
+                </form>
              </section>
             </article>
             <hr>
-
                 </main>
         <footer style="text-align: center;">
             <address>Madurai</address>
