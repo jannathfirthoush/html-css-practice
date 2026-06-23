@@ -1,0 +1,25 @@
+body{
+    font-size:1 rem;
+    padding: 10%;
+}
+
+a{
+     text-decoration:none;
+        cursor: not-allowed;
+        color: brown;
+}
+
+a:visited, a:focus{
+    color:green;
+}
+ 
+a:hover{
+    color:blueviolet;
+}
+
+
+a:active{
+    color:blue;
+}
+
+
