@@ -1,0 +1,32 @@
+body{
+    font-size: 1.5rem;
+}
+
+.block{
+    background-color: black;
+    color: bisque;
+    width: 30vw;
+    height: 40vh;
+    padding: 1rem;
+}
+
+.left{
+    float: left;
+    margin-right: 10px;
+}
+
+.right{
+    float: right;
+    margin-left:20px;
+}
+
+.clear{
+    clear: both;
+}
+
+section{
+    background-color: brown;
+    border: 2px solid greenyellow;
+    padding: 20px;
+    display: flow-root;
+}

@@ -1,0 +1,69 @@
+/*main{
+    background-color: brown;
+    width: 50%;
+}
+
+p{
+    background-color: grey;
+    margin: 100px 50px;
+}
+body{
+    font-size: 2rem;
+}
+p{
+    background-color: grey;
+    margin-top: 100px;
+}
+
+.display{
+    background-color: rgb(29, 29, 137);
+    color: red;
+    margin-top: 100px;
+    padding:4rem;
+}
+p{
+    background-color: grey;
+    margin-top: 100px;
+}
+
+.display{
+    background-color: rgb(213, 32, 32);
+    color:rgb(214, 203, 203);
+    padding: 2rem;
+    display: inline-block;
+
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 2.5rem;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    background-color: rgb(195, 41, 143);
+    padding: 0;
+    text-align: right;
+}
+
+li{
+     display: inline-block;
+    margin-inline: 1rem;
+    padding:2px
+}
+
+li a{
+    text-decoration: none;
+    color: azure;
+}
+
+li a:hover,
+li a:focus{
+    color: blue;
+    text-decoration:dashed;
+}
